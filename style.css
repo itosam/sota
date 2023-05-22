@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "SFProDisplay";
+  src: url(./fonts/) format("woff"),
+    url(./fonts/SFProDisplay-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: black;
+}
+
+html,
+body {
+  font-family: "SFProDisplay", sans-sarif;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: url(./assets/Asset.png) no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.color-background {
+  background: darkblue;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2%;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+}
+
+form {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+input {
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  border: solid 2px #3d3d3d;
+  color: white;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 16px;
+  width: 99%;
+  padding-right: 5px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+.main {
+  width: 696px;
+  height: 552px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-right: 35px;
+}
+
+#name,
+#email {
+  width: 100%;
+}
+
+#email {
+  width: 104%;
+}
+
+#handle {
+  flex-direction: row;
+}
+
+#submit {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 16px;
+  width: 343px;
+  height: 56px;
+  margin-top: 45px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#submit:active {
+  background-color: #a5a5a5;
+}
+
+@media only screen and (max-device-width: 540px) {
+  .main br {
+    display: none;
+  }
+
+  input {
+    background: black;
+    border: solid 2px #3d3d3d;
+    color: white;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 16px;
+    width: 80%;
+    padding-right: 16px;
+    margin-bottom: 12px;
+    padding-left: 16px;
+  }
+
+  .html,
+  .body {
+    display: flex;
+    height: 100vh;
+    background: url(./assets/Asset.png);
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    width: 330px;
+  }
+
+  .row {
+    display: grid;
+  }
+
+  .column {
+    display: block;
+    margin: 0;
+  }
+
+  #name,
+  #email,
+  #handle {
+    width: 100%;
+  }
+
+  #handle {
+    flex-direction: row;
+  }
+}

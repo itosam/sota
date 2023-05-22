@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Offer Inc.</title>
+    <link rel="icon" href="./assets/faviconV2.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body id="'body">
+    <div class="main">
+      <h1>
+        What’s next <br />
+        for real time conversation?
+      </h1>
+      <h3>
+        We are heads down on building this product
+        <br />
+        towards an early alpha launch in Q2 2023.
+      </h3>
+      <h3>Reserve your handle, share this page and follow us.</h3>
+
+      <form id="form" name="form" onsubmit="return(validateForm())">
+        <div class="row">
+          <div class="column">
+            <input type="text" placeholder="Name" id="name" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Email" id="email" required />
+          </div>
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Handle" id="handle" required />
+        </div>
+        <div class="row">
+          <p class="terms">
+            By entering the above information you are agreeing to receive
+            <br />
+            emails from or on behalf of SPECIAL OFFER.
+          </p>
+        </div>
+        <button type="submit" id="submit" name="submit">Submit</button>
+      </form>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
