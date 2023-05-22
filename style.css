@@ -72,6 +72,32 @@ input {
   margin-bottom: 12px;
   padding-left: 16px;
 }
+button {
+	background: #fff;
+  border: 0;
+	cursor: pointer;
+	color: black;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  border: none;
+  border-radius: 16px;
+  width: 343px;
+  height: 56px;
+  margin-top: 45px;
+
+}
+
+button:hover {
+  background:#D45E28;
+  color: white;
+	opacity: 1;
+	transition: 0.2s;
+  
+}
+button:active {
+  background-color: #e26931;
+}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
   opacity: 1; /* Firefox */
@@ -110,26 +136,6 @@ input {
 
 #handle {
   flex-direction: row;
-}
-
-#submit {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 20px;
-  background-color: white;
-  border: none;
-  border-radius: 16px;
-  width: 343px;
-  height: 56px;
-  margin-top: 45px;
-}
-
-#submit:hover {
-  cursor: pointer;
-}
-
-#submit:active {
-  background-color: #a5a5a5;
 }
 
 @media only screen and (max-device-width: 540px) {
