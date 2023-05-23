@@ -19,4 +19,4 @@ I believe I was able to successfully meet all the requirements for the assesment
 - When a user hits the submit button, the background will update to a solid color
 - some html included error handling added for the form inputs
 - hover and active states added for submission button
-- mobile view edited for responsive design
+- mobile view added and edited for responsive design and additional stretch items for myself
