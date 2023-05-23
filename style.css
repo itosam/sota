@@ -140,11 +140,9 @@ button:active {
 }
 
 @media only screen and (max-device-width: 540px) {
-  /* ignore breaks for mobile view */
   .main br {
     display: none;
   }
-
 
   input {
     background: black;
@@ -160,20 +158,21 @@ button:active {
     padding-left: 16px;
   }
 
-/* adjusted and updated background image to better fit mobile */
 body {
   display: flex;
   height: 100vh;
   background: url(./assets/Assetphone.png) no-repeat;
-  background-size: 100% auto;
-  background-position:85% 100%;
+  background-size: 100%;
+  background-position:150% 45%;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 
-  }
   
+button {
+  width: 110%;
+}
   .main {
     width: 60%;
   }
@@ -196,4 +195,4 @@ body {
   #handle {
     flex-direction: row;
   }
-
+}
