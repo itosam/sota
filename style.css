@@ -140,9 +140,11 @@ button:active {
 }
 
 @media only screen and (max-device-width: 540px) {
+  /* ignore breaks for mobile view */
   .main br {
     display: none;
   }
+
 
   input {
     background: black;
@@ -158,6 +160,7 @@ button:active {
     padding-left: 16px;
   }
 
+/* adjusted and updated background image to better fit mobile */
 body {
   display: flex;
   height: 100vh;
@@ -171,9 +174,6 @@ body {
 
   }
   
-button {
-  width: 110%;
-}
   .main {
     width: 60%;
   }
@@ -196,4 +196,4 @@ button {
   #handle {
     flex-direction: row;
   }
-}
+
