@@ -14,5 +14,5 @@ form.addEventListener("submit", (e) => {
   email.value = "";
   handle.value = "";
 
-  alert("We have received your info! Thanks for signing up")
+  setTimeout(() => {alert("We have received your info! Thanks for signing up")}, 500);
 });
