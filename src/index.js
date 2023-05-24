@@ -4,6 +4,7 @@ const name = document.querySelector("#name");
 const email = document.querySelector("#email");
 const handle = document.querySelector("#handle");
 
+
 form.addEventListener("submit", (e) => {
   e.preventDefault(); //prevent form submit
   console.log("form submitted");
